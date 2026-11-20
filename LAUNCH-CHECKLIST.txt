@@ -1,0 +1,18 @@
+LOFTVERND — GITHUB PAGES LAUNCH PACK (18 Nov 2026)
+
+1. Upload index.html, dryer.html, .nojekyll and the assets folder to the ROOT of your GitHub Pages repository. Do not upload the ZIP as a single file.
+2. In the repository choose Settings > Pages > Deploy from a branch > main > /(root) > Save.
+3. Once published, the MVHR page is at the site root (/), and Laundry at /dryer.html. Test both from a mobile phone.
+4. Before advertising, connect a REAL form endpoint in assets/leads.js: set FORM_ENDPOINT = 'https://formspree.io/f/YOUR_ID' (replace YOUR_ID with your actual Formspree form ID) and run a test enquiry. Right now the form ONLY COPIES text and does not send.
+5. If using online booking, replace the enquiry CTAs with a verified booking link only after the correct schedule and service durations have been configured and tested.
+6. Prices, filter-material surcharges, cancellation terms and photo/testimonial permissions must be checked before a public launch.
+7. MVHR equipment photos are EXTERNALLY HOTLINKED, with unverified reuse rights. Obtain licences/permission or replace them with your own photos before publishing; the fallback is the local schematic illustrations.
+8. Basic dataLayer events exist for CTA clicks / lead attempts / successfully submitted leads, but Meta Pixel and cookie/consent configuration are NOT installed.
+9. No domain or GitHub repository has been connected yet. This ZIP is not a deployed live site.
+
+SITE STRUCTURE:
+- index.html — Loftvernd MVHR
+- dryer.html — Loftvernd Laundry
+- assets/ — local styles, scripts and before/after photos
+
+INSTRUCTIONS: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
