@@ -1,18 +1,14 @@
-LOFTVERND — GITHUB PAGES LAUNCH PACK (18 Nov 2026)
+LOFTVERND — WEBSITE LAUNCH CHECKLIST
 
-1. Upload index.html, dryer.html, .nojekyll and the assets folder to the ROOT of your GitHub Pages repository. Do not upload the ZIP as a single file.
-2. In the repository choose Settings > Pages > Deploy from a branch > main > /(root) > Save.
-3. Once published, the MVHR page is at the site root (/), and Laundry at /dryer.html. Test both from a mobile phone.
-4. Before advertising, connect a REAL form endpoint in assets/leads.js: set FORM_ENDPOINT = 'https://formspree.io/f/YOUR_ID' (replace YOUR_ID with your actual Formspree form ID) and run a test enquiry. Right now the form ONLY COPIES text and does not send.
-5. If using online booking, replace the enquiry CTAs with a verified booking link only after the correct schedule and service durations have been configured and tested.
-6. Prices, filter-material surcharges, cancellation terms and photo/testimonial permissions must be checked before a public launch.
-7. MVHR equipment photos are EXTERNALLY HOTLINKED, with unverified reuse rights. Obtain licences/permission or replace them with your own photos before publishing; the fallback is the local schematic illustrations.
-8. Basic dataLayer events exist for CTA clicks / lead attempts / successfully submitted leads, but Meta Pixel and cookie/consent configuration are NOT installed.
-9. No domain or GitHub repository has been connected yet. This ZIP is not a deployed live site.
+DONE: Existing original MVHR design retained. Three prices retained; Complete up to 8 vents and VINSÆLAST. Outbound brand links removed. Brand thumbnails now use local schematic SVGs (no third-party hotlinking). Laundry navigation hidden for single-service launch. Outdated Forskoðun labels replaced with honest booking-not-active notices. Obvious Icelandic spelling corrected: Áugusta Hreinsdottir -> Ágústa Hreinsdóttir.
 
-SITE STRUCTURE:
-- index.html — Loftvernd MVHR
-- dryer.html — Loftvernd Laundry
-- assets/ — local styles, scripts and before/after photos
+BEFORE PAID ADS:
+[ ] Verify the actual spelling and permission for all three named testimonials, including whether Ólafur uses Jónson or Jónsson. Do not portray testimonials as genuine unless documented.
+[ ] Check manufacturer/model compatibility and standard filter price limits. The four brand examples do NOT imply eligible filter coverage.
+[ ] Confirm the Noona/Teya merchant integration, mandatory full prepayment, calendar buffers and model/address questions.
+[ ] Verify VAT registration status/effective date and customer-facing VAT treatment.
+[ ] Set the actual Noona URL or official embed after an end-to-end checkout test.
+[ ] Upload complete extracted ZIP contents to GitHub repository root; do not upload the ZIP as the website.
+[ ] Check desktop and mobile design, images, before/after comparisons and contact details.
 
-INSTRUCTIONS: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+NOTE: The website does not yet accept payment or bookings. Noona link intentionally disabled.
